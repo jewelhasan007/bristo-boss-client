@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'AdobeFont';
+    src: url('AdobeClean-Regular.ttf');
+   
+}
+
+body{
+    font-family: 'AdobeFont';
+}

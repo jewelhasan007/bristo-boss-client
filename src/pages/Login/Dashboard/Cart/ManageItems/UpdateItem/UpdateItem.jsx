@@ -9,7 +9,7 @@ console.log(item)
 const [itemMenu, setItemMenu] = useState([]);
 
 useEffect(()=>{
-    fetch("http://localhost:5000/menu")
+    fetch(`${process.env.VITE_baseURL}/menu`)
     .then(res=>{
         console.log(res)
         setItemMenu(itemMenu)

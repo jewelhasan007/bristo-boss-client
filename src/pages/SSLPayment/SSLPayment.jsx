@@ -4,7 +4,7 @@ import React from 'react';
 const SSLPayment = () => {
 
     const handleSSLPayment = ()=>{
-        axios.post('http://localhost:5000/payment-ssl', {
+        axios.post(`${process.env.VITE_baseURL}/payment-ssl`, {
             amount: 200,
             currenty: 'USD'
         })

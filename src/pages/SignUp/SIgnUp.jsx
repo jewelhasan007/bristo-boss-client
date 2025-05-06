@@ -186,7 +186,7 @@ axiosPublic.post('/users', userInfo)
               <Link to="/login">Already have an account</Link>
             </p>
             <div className="divider"></div>
-            <SocialLogin></SocialLogin>
+           
           </div>
         </div>
       </div>

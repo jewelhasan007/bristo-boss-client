@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Firebase/providers/AuthProvider";
 import Swal from "sweetalert2";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
-import SocialLogin from "../../component/socialLogin";
+
 
 const SIgnUp = () => {
   const axiosPublic = useAxiosPublic();

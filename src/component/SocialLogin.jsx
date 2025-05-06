@@ -1,6 +1,5 @@
 import { FaGoogle } from "react-icons/fa";
-import  { AuthContext } from "../Firebase/providers/AuthProvider";
-import { useContext } from "react";
+
 import userHook from "../hooks/userHook";
 import useAxiosPublic from "../hooks/useAxiosPublic";
 import { useNavigate } from "react-router-dom";
